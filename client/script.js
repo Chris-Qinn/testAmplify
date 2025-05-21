@@ -4,14 +4,11 @@ document.getElementById('messageForm').addEventListener('submit', async function
     const message = document.getElementById('messageInput').value;
   
     try {
-      const response = await fetch('http://localhost:5000/message', {
+      const response = await fetch('http://testamplify-env.eba-22pd5nua.us-east-1.elasticbeanstalk.com/message', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ message: message })
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message })
       });
-  
       const data = await response.json();
       document.getElementById('response').textContent = `Server says: ${data.reply}`;
     } catch (error) {
