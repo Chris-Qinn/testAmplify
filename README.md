@@ -6,7 +6,7 @@ This is a basic full-stack client-server application with a JavaScript frontend 
 
 ## 📁 Project Structure
 
-simple-app/
+testAmplify/
 ├── client/ # Frontend (JavaScript, HTML)
 │ ├── index.html
 │ ├── script.js
@@ -22,23 +22,23 @@ simple-app/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/simple-app.git
+git clone https://github.com/yourusername/testAmplify.git
 cd simple-app
 ```
 
-🖥️ Running the Frontend
+### 🖥️ Running the Frontend
 
-### 1. Navigate to the client directory:
+#### 1. Navigate to the client directory:
 
 ```bash
 cd client
 npm install
 ```
 
-### 2. Start the frontend server:
+#### 2. Start the frontend server:
 
 ```bash
 npm run start
@@ -47,16 +47,16 @@ npm run start
 The app will be served at something like http://localhost:3000.
 
 
-🐍 Running the Backend
+### 🐍 Running the Backend
 
-### 1. Navigate to the server directory:
+#### 1. Navigate to the server directory:
 
 ```bash
 cd server
 pip install -r requirements.txt
 ```
 
-### 2. Start the Flask server:
+#### 2. Start the Flask server:
 ```bash
 python app.py
 ```
