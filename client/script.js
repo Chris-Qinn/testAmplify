@@ -4,7 +4,7 @@ document.getElementById('messageForm').addEventListener('submit', async function
     const message = document.getElementById('messageInput').value;
   
     try {
-      const response = await fetch('http://testamplify-env.eba-22pd5nua.us-east-1.elasticbeanstalk.com/message', {
+      const response = await fetch('http://amplifytest-env.eba-en32aymp.us-east-1.elasticbeanstalk.com/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message })
