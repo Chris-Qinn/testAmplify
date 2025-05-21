@@ -1,0 +1,7 @@
+# Node dependencies
+client/node_modules/
+
+# Python dependencies
+server/__pycache__/
+server/*.pyc
+.env
